@@ -13,7 +13,6 @@ function App() {
         <div className={classNames('app', {}, [theme])}>
             <Suspense fallback="">
                 <Navbar />
-                asdfasdf
                 <div className="content-page">
                     <Sidebar />
                     <AppRouter />
